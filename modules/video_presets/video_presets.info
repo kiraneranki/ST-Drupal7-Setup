@@ -1,0 +1,16 @@
+core = "7.x"
+dependencies[] = "video"
+dependencies[] = "video_ui"
+description = "Mange video presets for Video module"
+features[video][] = "Mp4"
+features[video][] = "Ogg"
+features[video][] = "WebM"
+name = "Video Presets"
+package = "Features"
+
+; Information added by drupal.org packaging script on 2011-03-17
+version = "7.x-1.0"
+core = "7.x"
+project = "video_presets"
+datestamp = "1300388770"
+
